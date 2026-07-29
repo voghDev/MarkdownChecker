@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xccheckout
+*.moved-to-trash/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift
+.build/
+.swiftpm/
+*.o
+*.d
+
+# Build output — the compiled app belongs in /Applications, not the repo
+/build/
+*.app
+
+# Generated icon assets (rebuilt by setup.sh)
+*.icns
+*.iconset/
